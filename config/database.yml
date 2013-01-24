@@ -24,3 +24,17 @@ development:
 #  database: db/production.sqlite3
 #  pool: 5
 #  timeout: 5000
+
+test:
+  adapter: postgresql
+  host: localhost
+  username: postgres
+  password: password
+  database: app-test
+
+production:
+  adapter: postgresql
+  host: localhost
+  username: postgres
+  password: password
+  database: app-prod
